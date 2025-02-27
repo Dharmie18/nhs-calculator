@@ -9,43 +9,30 @@
 <body>
     <div class="container">
         <div class="calculator">
-            <!-- Display Screen -->
             <div class="display">
                 <input type="text" id="result" disabled>
             </div>
 
-            <!-- Buttons Section -->
             <div class="buttons">
-                <!-- First Row -->
                 <button onclick="clearDisplay()" class="operator">C</button>
                 <button onclick="deleteLast()" class="operator">⌫</button>
                 <button onclick="appendToDisplay('%')" class="operator">%</button>
                 <button onclick="appendToDisplay('/')" class="operator">÷</button>
-
-                <!-- Second Row -->
                 <button onclick="appendToDisplay('7')">7</button>
                 <button onclick="appendToDisplay('8')">8</button>
                 <button onclick="appendToDisplay('9')">9</button>
                 <button onclick="appendToDisplay('*')" class="operator">×</button>
-
-                <!-- Third Row -->
                 <button onclick="appendToDisplay('4')">4</button>
                 <button onclick="appendToDisplay('5')">5</button>
                 <button onclick="appendToDisplay('6')">6</button>
                 <button onclick="appendToDisplay('-')" class="operator">−</button>
-
-                <!-- Fourth Row -->
                 <button onclick="appendToDisplay('1')">1</button>
                 <button onclick="appendToDisplay('2')">2</button>
                 <button onclick="appendToDisplay('3')">3</button>
                 <button onclick="appendToDisplay('+')" class="operator">+</button>
-                
-                <!-- Trigonometry Functions -->
                 <button onclick="calculateTrig('sin')" class="trig">sin</button>
                 <button onclick="calculateTrig('cos')" class="trig">cos</button>
                 <button onclick="calculateTrig('tan')" class="trig">tan</button>
-
-                <!-- Sixth Row -->
                 <button onclick="appendToDisplay('0')">0</button>
                 <button onclick="appendToDisplay('.')">.</button>
                 <button onclick="calculateResult()" class="equal">=</button>
@@ -54,13 +41,12 @@
         </div>
 
         <div class="instructions">
-            <h3>📌 How to Use Trigonometric Functions</h3>
-            <p>1️⃣ Enter the angle in degrees.</p>
-            <p>2️⃣ Click sin, cos, or tan to calculate.</p>
-            <p>3️⃣ The result will be displayed instantly.</p>
+            <h3><strong>P.S</strong> How to Use Trigonometric Functions</h3>
+            <p>1. Enter the angle in degrees.</p>
+            <p>2. Click sin, cos, or tan to calculate.</p>
+            <p>3, The result will be displayed instantly.</p>
         </div>
 
-        <!-- Footer Section -->
         <div class="footer">
             <p><strong>Name:</strong> Aileme Oluwadamilola Olesengbuan</p>
             <p><strong>Level:</strong> 200 Level</p>
